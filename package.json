@@ -1,0 +1,42 @@
+{
+  "name": "npm-profile-card",
+  "version": "1.0.0",
+  "description": "My npm card presentation package",
+  "main": "/bin/card.js",
+  "bin": {
+    "makeitrealcamp": "./bin/card.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"pending...\"",
+    "lint": "eslint --ext .js, bin/card.js",
+    "lint:fix": "eslint --ext .js, bin/card.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianVilla1504/npm-profile-card.git"
+  },
+  "keywords": [
+    "NPM",
+    "Presentation"
+  ],
+  "author": "Adrian Villa <adriancvilla@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdrianVilla1504/npm-profile-card/issues"
+  },
+  "homepage": "https://github.com/AdrianVilla1504/npm-profile-card#readme",
+  "dependencies": {
+    "boxen": "^7.0.1",
+    "chalk": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.4.1",
+    "np": "^7.6.3"
+  }
+}
